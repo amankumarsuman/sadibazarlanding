@@ -7,7 +7,7 @@ import SeoHead from "../components/SeoHead";
 export default function Home() {
   return (
     <>
-      <SeoHead title="Sadibazar Landing Page" />
+      <SeoHead title="Sadibazar-All in one solution for Events" />
       <Layout>
         <Hero />
         <Feature />

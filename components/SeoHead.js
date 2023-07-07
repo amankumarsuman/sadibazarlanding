@@ -7,12 +7,13 @@ const defaultMeta = {
   siteName: "sadibazar-A Product of Alkaaman Event Management Pvt. Ltd",
   description: "India's Best Event Management Company",
   // change base url of your web (without '/' at the end)
-  url: "https://next-landing-vpn.vercel.app",
+  url: "https://www.sadibazar.tech/",
   type: "website",
   robots: "follow, index",
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status
-  image: "https://next-landing-vpn.vercel.app/assets/card-image.png",
+  image:
+    "https://www.sadibazar.tech/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsadibazar.0b636d84.png&w=256&q=75",
   author: "Aman Kumar",
 };
 
@@ -95,9 +96,9 @@ const SeoHead = (props) => {
 // Favicons, other icons, and manifest definition
 const favicons = [
   {
-    rel: "apple-touch-icon",
+    rel: "founder sadibazar",
     sizes: "57x57",
-    href: "/favicon/apple-icon-57x57.png",
+    href: "https://cdn.hashnode.com/res/hashnode/image/upload/v1612853878205/0j35TXfWy.jpeg",
   },
   {
     rel: "apple-touch-icon",
