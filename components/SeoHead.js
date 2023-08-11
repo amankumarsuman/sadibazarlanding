@@ -3,9 +3,9 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: "Sadibazar",
-  siteName: "sadibazar-A Product of Alkaaman Event Management Pvt. Ltd",
-  description: "India's Best Event Management Company",
+  title: "Shadibazar Events",
+  siteName: "Shadibazar Events A Product of Alkaaman Event Management Pvt. Ltd",
+  description: "India Best Event Management Company in Bihar",
   // change base url of your web (without '/' at the end)
   url: "https://www.sadibazar.tech/",
   type: "website",

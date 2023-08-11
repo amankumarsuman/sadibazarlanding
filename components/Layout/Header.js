@@ -3,7 +3,8 @@ import Link from "next/link";
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
-import LogoVPN from "../../public/assets/sadibazar.png";
+import LogoVPN from "../../public/assets/Shadibazar-dark.png";
+// import LogoVPN from "../../public/assets/sadibazarDark1.png";
 import Image from "next/image";
 import ThemeChanger from "../DarkSwitch";
 
@@ -16,8 +17,7 @@ const Header = () => {
     });
   }, []);
   const handleNavigate = (link) => {
-    console.log("clicked");
-    alert("clicked");
+ 
     window.open(link, "_blank", "noopener,noreferrer");
   };
   return (
@@ -31,7 +31,7 @@ const Header = () => {
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
             {/* <LogoVPN className="h-8 w-auto" /> */}
-            <Image src={LogoVPN} width={200} height={50} alt="logo" />
+            <Image src={LogoVPN} width={150} height={100} alt="logo" />
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
@@ -108,11 +108,11 @@ const Header = () => {
             </LinkScroll>
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            {/* <Link href="/">
+            <Link href="/">
               <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
                   Sign In
               </a>
-            </Link> */}
+            </Link>
             <ButtonOutline link={"https://booking.sadibazar.tech/"}>
               Book The Services
             </ButtonOutline>
