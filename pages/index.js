@@ -30,7 +30,10 @@ export default function Home() {
         <Hero />
         <Feature />
         <Pricing />
+
       </Layout>
+      <script src="//code.tidio.co/vxaydptw9mrpyik4zz6jrfuvhpqu6vyi.js" async></script>
+
     </>
   );
 }

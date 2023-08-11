@@ -3,6 +3,7 @@ import React, { useMemo } from "react";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import SeoHead from "./SeoHead";
 
 const features = [
   "Venue",
@@ -23,10 +24,13 @@ const Feature = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
+    
     <div
       className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto"
       id="feature"
     >
+      <SeoHead title="Shadibazar All in one solution for Events" siteName="Shadibazar Events" description="India Best Event Management Company In Bihar" url="www.sadibazar.tech" type="Event Management Company Wedding Company Birthday Party Pre wedding post wedding Virtual Events All In One Event Solution "/>
+
       <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 p  y-8 my-12">
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
